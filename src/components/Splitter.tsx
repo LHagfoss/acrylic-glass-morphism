@@ -1,0 +1,1 @@
+export default function Splitter() { return <div className="w-full h-[10vh]"></div> }
