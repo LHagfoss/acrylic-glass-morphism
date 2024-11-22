@@ -61,7 +61,7 @@ export default function Navbar() {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    className="z-10 fixed bottom-10 right-10 bg-[#00000026] border-4 border-[#4c4c4c32] p-5 rounded-3xl shadow-lg"
+                    className="z-10 fixed bottom-10 right-10 bg-[#00000026] border-4 border-[#4c4c4c32] p-5 rounded-3xl backdrop-blur-3xl shadow-lg"
                     onAnimationComplete={() => setTimeout(() => setShowAlert(false), 2500)}
                 >
                     <h2 className="text-lg font-bold text-zinc-100">Heads up!</h2>
