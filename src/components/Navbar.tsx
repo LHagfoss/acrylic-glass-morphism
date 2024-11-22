@@ -16,7 +16,7 @@ export default function Navbar() {
     return (
         <>
             <div 
-                className="fixed z-10 top-10 left-[50%] translate-x-[-50%] flex gap-2 backdrop-blur-[30px] p-3 
+                className="fixed z-30 top-10 left-[50%] translate-x-[-50%] flex gap-2 backdrop-blur-[30px] p-3 
                 rounded-3xl overflow-hidden bg-[#00000026] border-4 border-[#4c4c4c32]"
             >
                 <Link 
@@ -64,8 +64,8 @@ export default function Navbar() {
                     className="z-10 fixed bottom-10 right-10 bg-[#00000026] border-4 border-[#4c4c4c32] p-5 rounded-3xl shadow-lg"
                     onAnimationComplete={() => setTimeout(() => setShowAlert(false), 2500)}
                 >
-                    <h2 className="text-lg font-bold">Heads up!</h2>
-                    <p>The E-Mail has been copied.</p>
+                    <h2 className="text-lg font-bold text-zinc-100">Heads up!</h2>
+                    <p className="text-zinc-500">The E-Mail has been copied.</p>
                 </motion.div>
             )}
         </>
