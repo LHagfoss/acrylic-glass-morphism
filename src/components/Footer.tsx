@@ -8,8 +8,7 @@ export default function Footer() {
   return (
       <div className="w-[100vw] h-[60vh] relative inset-0">
         <footer className="z-10 relative bottom-0 w-full md:h-[60vh] flex justify-center items-center p-5 md:p-52">
-          <div className="container">
-              <div className="mx-4 md:mx-0 flex flex-wrap">
+              <div className="container flex flex-wrap">
                 <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
                   <div className="mb-10 w-full">
                       <Link href="/#">
@@ -109,7 +108,6 @@ export default function Footer() {
                     </div>
                     </div>
                 </div>
-              </div>
           </footer>
         <BlurBackground />
 

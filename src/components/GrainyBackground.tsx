@@ -28,13 +28,13 @@ export default function GrainyBackground() {
 
     return (
         <div className="w-[100vw] h-[100vh] flex justify-center items-center relative inset-0">
-            <div className="flex flex-col leading-[11vh]">
+            <div className="flex flex-col leading-[5rem] md:leading-[8rem]">
                 <div className="flex justify-start">
-                    <p className="text-purple-50 text-[5rem] opacity-80">Lucas</p>
+                    <p className="text-purple-50 text-[3rem] md:text-[5rem] opacity-80">Thanawat</p>
                 </div>
-                <h1 className="text-purple-50 text-[13rem] opacity-80">Thanawat</h1>
+                <h1 className="text-purple-50 text-[8rem] md:text-[15rem] opacity-80">Lucas</h1>
                 <div className="flex justify-end">
-                    <p className="text-purple-50 text-[5rem] opacity-80">Hagfoss</p>
+                    <p className="text-purple-50 text-[3rem] md:text-[5rem] opacity-80">Hagfoss</p>
                 </div>
             </div>
 

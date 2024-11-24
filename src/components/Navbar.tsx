@@ -16,7 +16,7 @@ export default function Navbar() {
     return (
         <>
             <div 
-                className="fixed z-30 top-10 left-[50%] translate-x-[-50%] flex gap-2 backdrop-blur-[30px] p-3 
+                className="scale-[0.56] md:scale-100 fixed z-30 top-1 md:top-10 left-[50vw] translate-x-[-50%] flex gap-2 backdrop-blur-[30px] p-3 
                 rounded-3xl overflow-hidden bg-[#00000026] border-4 border-[#4c4c4c32]"
             >
                 <Link 
